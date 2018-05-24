@@ -1,3 +1,9 @@
+___
+layout: default
+title: Cleo Technical Blog
+___
+
+
 # Cleo Technical Blog
 
 This is where the Cleo technical blog will go.
