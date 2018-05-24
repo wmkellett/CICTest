@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: "Will Kellett posts first blog entry"
-date: 2014-04-30
+title: "First blog"
+date: 2018-05-10
 ---
 
 Here's the first blog entry. It'll be powered by [Jekyll](http://jekyllrb.com) and we can use Markdown to author posts.
