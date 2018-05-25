@@ -1,0 +1,67 @@
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <ul class="corporate-links list-inline has-pipe">
+          <li><a href="http://www.cleo.com/" class="bigger" target="_blank">Cleo.com</a></li>
+          <li><a href="https://www.cleo.com/about-cleo/" class="bigger" target="_blank">About Us</a></li>
+          <li><a href="http://app.jobvite.com/CompanyJobs/Careers.aspx?k=JobListing&c=qkM9VfwU&v=1" class="bigger" target="_blank">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <ul class="social-media list-inline">
+          <li><a href="http://www.facebook.com/CleoCommunications" title="Facebook" target="_blank">
+            <span class="icon facebook"></span>
+            <span class="sr-only">Cleo on Facebook</span>
+          </a></li>
+          <li><a href="http://www.linkedin.com/company/cleo-communications" title="LinkedIn" target="_blank">
+            <span class="icon linkedin"></span>
+            <span class="sr-only">Cleo on LinkedIn</span>
+          </a></li>
+          <li><a href="http://twitter.com/moveviewact" title="Twitter" target="_blank">
+            <span class="icon twitter"></span>
+            <span class="sr-only">Cleo on Twitter</span>
+          </a></li>
+          <li><a href="http://www.youtube.com/channel/UC2PgUTS3aYxShbsWMPkHPuQ" title="YouTube" target="_blank">
+            <span class="icon youtube"></span>
+            <span class="sr-only">Cleo on YouTube</span>
+          </a></li>
+        </ul>
+      </div>
+      <div class="col-sm-12">
+        <p class="text-center contact-info">
+        &copy; 2016 Cleo. All rights reserved ·
+        P.O. Box 15835 |
+        Loves Park, IL 61132-5835 |
+        +1.815.282.7695</p>
+      </div>
+      <div class="col-xs-12 text-center">
+        <ul class="footer-links list-inline has-pipe">
+          <li><a href="http://www.cleo.com/privacy-notice/" target="_blank">Privacy Notice</a></li>
+          <li><a href="http://www.cleo.com/terms-and-conditions/" target="_blank">Terms & Conditions</a></li>
+          <li><a href="http://www.cleo.com/compliance/" target="_blank">Compliance</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<a class="back-to-top hidden-xs" style="display: inline;" href="#"><span class="icon-arrowup"></span></a>
+<script>
+jQuery(document).ready(function($) {
+    var offset = 250;
+    var duration = 300;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
