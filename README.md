@@ -1,7 +1,3 @@
----
-layout: default
-title: Cleo Technical Blog
----
 
 # Cleo Technical Blog
 
